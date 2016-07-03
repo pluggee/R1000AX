@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Main)(type Github)(uri https://github.com/pluggee/main.pretty)(options "")(descr "IPC-7351B Compatible Footprint Library"))
+)

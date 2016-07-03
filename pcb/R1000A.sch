@@ -1,0 +1,357 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:analog
+LIBS:connect
+EELAYER 25 0
+EELAYER END
+$Descr B 11000 17000 portrait
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR5
+U 1 1 575B45D5
+P 4400 3450
+F 0 "#PWR5" H 4400 3200 50  0001 C CNN
+F 1 "GND" V 4400 3250 50  0000 C CNN
+F 2 "" H 4400 3450 50  0000 C CNN
+F 3 "" H 4400 3450 50  0000 C CNN
+	1    4400 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HT #PWR2
+U 1 1 575B4666
+P 2900 2750
+F 0 "#PWR2" H 2900 2870 50  0001 C CNN
+F 1 "HT" V 2900 2875 50  0000 C CNN
+F 2 "" H 2900 2750 50  0000 C CNN
+F 3 "" H 2900 2750 50  0000 C CNN
+	1    2900 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR1
+U 1 1 575B49F9
+P 2900 2450
+F 0 "#PWR1" H 2900 2300 50  0001 C CNN
+F 1 "+5V" V 2900 2650 50  0000 C CNN
+F 2 "" H 2900 2450 50  0000 C CNN
+F 3 "" H 2900 2450 50  0000 C CNN
+	1    2900 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR4
+U 1 1 575B4A7F
+P 4400 2450
+F 0 "#PWR4" H 4400 2300 50  0001 C CNN
+F 1 "+3.3V" V 4400 2675 50  0000 C CNN
+F 2 "" H 4400 2450 50  0000 C CNN
+F 3 "" H 4400 2450 50  0000 C CNN
+	1    4400 2450
+	0    1    1    0   
+$EndComp
+Text GLabel 2850 2250 0    39   BiDi ~ 0
+PX1
+Text GLabel 2850 2150 0    39   BiDi ~ 0
+PX2
+Text GLabel 2850 2050 0    39   BiDi ~ 0
+PX3
+Text GLabel 2850 1950 0    39   BiDi ~ 0
+PX4
+Text GLabel 1200 1850 0    39   Input ~ 0
+SCL
+Text GLabel 1200 1750 0    39   BiDi ~ 0
+SDA
+Text Label 2750 1850 0    39   ~ 0
+SCL
+Text Label 2750 1750 0    39   ~ 0
+SDA
+Text GLabel 8100 2250 2    39   BiDi ~ 0
+ID0
+Text GLabel 8100 2150 2    39   BiDi ~ 0
+ID1
+Text GLabel 8100 2050 2    39   BiDi ~ 0
+ID2
+Text GLabel 8100 1950 2    39   BiDi ~ 0
+ID3
+Text GLabel 8100 1850 2    39   BiDi ~ 0
+RESERVED0
+Text GLabel 8100 1750 2    39   BiDi ~ 0
+SCLK
+Text Label 4275 2250 0    39   ~ 0
+ID0
+Text Label 4275 2150 0    39   ~ 0
+ID1
+Text Label 4275 2050 0    39   ~ 0
+ID2
+Text Label 4275 1950 0    39   ~ 0
+ID3
+Text Label 4275 1850 0    39   ~ 0
+RESERVED0
+Text Label 4275 1750 0    39   ~ 0
+SCLK
+Text Notes 8725 2025 2    39   ~ 0
+I2C Socket ID
+Text Notes 1975 2125 0    39   ~ 0
+MCU Realtime Controls
+Text Notes 725  1825 0    39   ~ 0
+I2C Port
+Text GLabel 2600 1650 0    39   Input ~ 0
+~MRESET
+Text Label 2750 1650 0    39   ~ 0
+~MRESET
+Text Notes 1925 1675 0    39   ~ 0
+MCU Reset
+Text GLabel 8100 1650 2    39   BiDi ~ 0
+C2D
+Text Label 4275 1650 0    39   ~ 0
+C2D
+$Comp
+L R_Small R3
+U 1 1 576AD847
+P 4650 1250
+F 0 "R3" H 4709 1317 50  0000 L CNN
+F 1 "10k" H 4709 1226 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4709 1159 20  0000 L CNN
+F 3 "" H 4650 1250 50  0000 C CNN
+	1    4650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 576AD9B9
+P 5650 1250
+F 0 "R4" H 5709 1317 50  0000 L CNN
+F 1 "10k" H 5709 1226 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5709 1159 20  0000 L CNN
+F 3 "" H 5650 1250 50  0000 C CNN
+	1    5650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R5
+U 1 1 576ADA01
+P 6150 1250
+F 0 "R5" H 6209 1317 50  0000 L CNN
+F 1 "10k" H 6209 1226 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6209 1159 20  0000 L CNN
+F 3 "" H 6150 1250 50  0000 C CNN
+	1    6150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R6
+U 1 1 576ADA54
+P 6650 1250
+F 0 "R6" H 6709 1317 50  0000 L CNN
+F 1 "10k" H 6709 1226 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6709 1159 20  0000 L CNN
+F 3 "" H 6650 1250 50  0000 C CNN
+	1    6650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R7
+U 1 1 576ADA9C
+P 7150 1250
+F 0 "R7" H 7209 1317 50  0000 L CNN
+F 1 "10k" H 7209 1226 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 7209 1159 20  0000 L CNN
+F 3 "" H 7150 1250 50  0000 C CNN
+	1    7150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 576ADECE
+P 1900 1250
+F 0 "R2" H 1959 1317 50  0000 L CNN
+F 1 "10k" H 1959 1226 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 1959 1159 20  0000 L CNN
+F 3 "" H 1900 1250 50  0000 C CNN
+	1    1900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 576ADFC2
+P 1400 1250
+F 0 "R1" H 1459 1317 50  0000 L CNN
+F 1 "10k" H 1459 1226 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 1459 1159 20  0000 L CNN
+F 3 "" H 1400 1250 50  0000 C CNN
+	1    1400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR3
+U 1 1 576AE120
+P 3450 850
+F 0 "#PWR3" H 3450 700 50  0001 C CNN
+F 1 "+3.3V" H 3450 1000 50  0000 C CNN
+F 2 "" H 3450 850 50  0000 C CNN
+F 3 "" H 3450 850 50  0000 C CNN
+	1    3450 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2750 4300 3450
+Wire Wire Line
+	4200 2850 4300 2850
+Connection ~ 4300 2850
+Wire Wire Line
+	4200 2950 4300 2950
+Connection ~ 4300 2950
+Wire Wire Line
+	4200 3050 4300 3050
+Connection ~ 4300 3050
+Wire Wire Line
+	4200 3150 4300 3150
+Connection ~ 4300 3150
+Wire Wire Line
+	4200 3250 4300 3250
+Connection ~ 4300 3250
+Wire Wire Line
+	4200 3350 4300 3350
+Connection ~ 4300 3350
+Wire Wire Line
+	3000 2750 3000 3450
+Wire Wire Line
+	3100 3350 3000 3350
+Connection ~ 3000 3350
+Wire Wire Line
+	3100 3250 3000 3250
+Connection ~ 3000 3250
+Wire Wire Line
+	3100 3150 3000 3150
+Connection ~ 3000 3150
+Wire Wire Line
+	3100 3050 3000 3050
+Connection ~ 3000 3050
+Wire Wire Line
+	3100 2950 3000 2950
+Connection ~ 3000 2950
+Wire Wire Line
+	3100 2850 3000 2850
+Connection ~ 3000 2850
+Wire Wire Line
+	4200 3450 4400 3450
+Wire Wire Line
+	2900 2750 3100 2750
+Wire Wire Line
+	4200 2450 4400 2450
+Wire Wire Line
+	4300 2450 4300 2650
+Wire Wire Line
+	4300 2650 4200 2650
+Connection ~ 4300 2450
+Wire Wire Line
+	4200 2550 4300 2550
+Connection ~ 4300 2550
+Wire Wire Line
+	2900 2450 3100 2450
+Wire Wire Line
+	3000 2450 3000 2650
+Wire Wire Line
+	3000 2650 3100 2650
+Connection ~ 3000 2450
+Wire Wire Line
+	3100 2550 3000 2550
+Connection ~ 3000 2550
+Wire Wire Line
+	3000 3450 3100 3450
+Wire Wire Line
+	4300 2750 4200 2750
+Connection ~ 4300 3450
+Connection ~ 3000 2750
+Wire Wire Line
+	2850 1950 3100 1950
+Wire Wire Line
+	3100 2050 2850 2050
+Wire Wire Line
+	3100 2150 2850 2150
+Wire Wire Line
+	3100 2250 2850 2250
+Wire Wire Line
+	1200 1750 3100 1750
+Wire Wire Line
+	3100 1850 1200 1850
+Wire Wire Line
+	8100 2250 4200 2250
+Wire Wire Line
+	8100 2150 4200 2150
+Wire Wire Line
+	8100 2050 4200 2050
+Wire Wire Line
+	8100 1950 4200 1950
+Wire Wire Line
+	8100 1850 4200 1850
+Wire Wire Line
+	8100 1750 4200 1750
+Wire Wire Line
+	2600 1650 3100 1650
+Wire Wire Line
+	8100 1650 4200 1650
+Wire Wire Line
+	4650 1350 4650 1650
+Connection ~ 4650 1650
+Wire Wire Line
+	5650 1350 5650 1950
+Connection ~ 5650 1950
+Wire Wire Line
+	6150 1350 6150 2050
+Connection ~ 6150 2050
+Wire Wire Line
+	6650 1350 6650 2150
+Connection ~ 6650 2150
+Wire Wire Line
+	7150 1350 7150 2250
+Connection ~ 7150 2250
+Wire Wire Line
+	1400 1350 1400 1750
+Connection ~ 1400 1750
+Wire Wire Line
+	1900 1350 1900 1850
+Connection ~ 1900 1850
+Wire Wire Line
+	3450 850  3450 1000
+Wire Wire Line
+	1400 1000 7150 1000
+Wire Wire Line
+	1400 1000 1400 1150
+Wire Wire Line
+	1900 1150 1900 1000
+Connection ~ 1900 1000
+Wire Wire Line
+	7150 1000 7150 1150
+Connection ~ 3450 1000
+Wire Wire Line
+	4650 1150 4650 1000
+Connection ~ 4650 1000
+Wire Wire Line
+	5650 1150 5650 1000
+Connection ~ 5650 1000
+Wire Wire Line
+	6150 1150 6150 1000
+Connection ~ 6150 1000
+Wire Wire Line
+	6650 1150 6650 1000
+Connection ~ 6650 1000
+$Sheet
+S 5800 6400 1625 1475
+U 5775B464
+F0 "PCIeSockets" 60
+F1 "file5775B463.sch" 60
+$EndSheet
+$EndSCHEMATC
