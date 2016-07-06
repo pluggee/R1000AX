@@ -5,6 +5,7 @@ LIBS:analog
 LIBS:connect
 LIBS:microcontroller
 LIBS:systems
+LIBS:RoboPlatform
 LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END

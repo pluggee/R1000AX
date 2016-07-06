@@ -1,4 +1,4 @@
-update=Tue 05 Jul 2016 04:47:53 PM PDT
+update=Wed 06 Jul 2016 04:24:29 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,3 +35,4 @@ LibName3=analog
 LibName4=connect
 LibName5=microcontroller
 LibName6=systems
+LibName7=RoboPlatform
