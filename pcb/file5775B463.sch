@@ -3,6 +3,9 @@ LIBS:power
 LIBS:device
 LIBS:analog
 LIBS:connect
+LIBS:microcontroller
+LIBS:systems
+LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
