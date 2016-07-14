@@ -1,4 +1,4 @@
-update=Sun 10 Jul 2016 08:22:37 PM PDT
+update=Wed 13 Jul 2016 06:43:00 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,3 +37,4 @@ LibName5=microcontroller
 LibName6=systems
 LibName7=RoboPlatform
 LibName8=inductors
+LibName9=electromechanical
