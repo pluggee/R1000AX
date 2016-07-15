@@ -8,7 +8,6 @@ LIBS:systems
 LIBS:RoboPlatform
 LIBS:inductors
 LIBS:electromechanical
-LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 11000 17000 portrait
@@ -591,4 +590,35 @@ Wire Wire Line
 Wire Wire Line
 	2300 6900 2500 6900
 NoConn ~ 4300 6300
+$Comp
+L R_Small R?
+U 1 1 57895C67
+P 2650 6650
+F 0 "R?" H 2680 6670 50  0000 L CNN
+F 1 "10k" H 2680 6610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 2600 6650 12  0000 C CNN
+F 3 "" H 2650 6650 50  0000 C CNN
+	1    2650 6650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 6650 2950 6650
+Wire Wire Line
+	2950 6650 2950 6900
+Connection ~ 2950 6900
+$Comp
+L +3.3V #PWR?
+U 1 1 57895F5D
+P 2300 6550
+F 0 "#PWR?" H 2300 6400 50  0001 C CNN
+F 1 "+3.3V" H 2300 6690 50  0000 C CNN
+F 2 "" H 2300 6550 50  0000 C CNN
+F 3 "" H 2300 6550 50  0000 C CNN
+	1    2300 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6550 2300 6650
+Wire Wire Line
+	2300 6650 2550 6650
 $EndSCHEMATC

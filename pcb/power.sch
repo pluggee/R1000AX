@@ -8,7 +8,6 @@ LIBS:systems
 LIBS:RoboPlatform
 LIBS:inductors
 LIBS:electromechanical
-LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
