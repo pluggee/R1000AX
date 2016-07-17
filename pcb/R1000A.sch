@@ -1190,4 +1190,8 @@ F 6 "STUFF" H 2750 5150 20  0000 L CNN "SKU"
 $EndComp
 Text Label 8850 11550 0    39   ~ 0
 VUSB_S
+Text Label 2300 6800 0    39   ~ 0
+~RESET
+Text Label 2700 9150 0    39   ~ 0
+VDDA
 $EndSCHEMATC
