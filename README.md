@@ -20,7 +20,7 @@ Feature Boards
 <pre>
 R1000A 		: Variant A Base Platform Board
 R1001		: Cascadable Stepper Motor Driver
-R1002		: Quad 1A DC Low Side NFET Control Switches
+R1002A		: Quad 1A DC Low Side NFET Control Switches
 R1003		: Analog/Digital I/O (Analog/Digital)
 R1004		: Inertial Measurement Unit (IMU) Breakout
 R1005		: General Purpose Breakout/Extension
