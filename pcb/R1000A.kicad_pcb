@@ -3,9 +3,9 @@
   (general
     (links 642)
     (no_connects 0)
-    (area 59.4 34.4 251.800001 145.200001)
+    (area 61.924999 37.924999 247.075001 142.075001)
     (thickness 1.6)
-    (drawings 81)
+    (drawings 84)
     (tracks 4014)
     (zones 0)
     (modules 78)
@@ -4030,6 +4030,11 @@
       (xy -0.746786 12.669917) (xy -0.377376 12.681099) (xy 0.980041 12.717464) (xy 0.997366 10.70462)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_line (start 185.3 57.1) (end 184.1 57.1) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 185.3 53.6) (end 185.3 57.1) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text P1.1 (at 181.6 57.1) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text GPIO (at 216 140 45) (layer F.SilkS)
     (effects (font (size 1.5 1.2) (thickness 0.3)) (justify left))
   )
