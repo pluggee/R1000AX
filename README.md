@@ -25,7 +25,7 @@ R1003		: Analog/Digital I/O (Analog/Digital)
 R1004		: Inertial Measurement Unit (IMU) Breakout
 R1005		: General Purpose Breakout/Extension
 R1006 		: SD Card
-R1007		: Quad 50A DC Low Side NFET Control Switches
+R1007		: Quad 20A DC Low Side NFET Control Switches
 </pre>
 Adapters
 <pre>
