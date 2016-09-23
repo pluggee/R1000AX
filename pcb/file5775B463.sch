@@ -210,18 +210,10 @@ Text GLabel 11350 2650 0    28   BiDi ~ 0
 J06.PX3.A14.P2[11]
 Text GLabel 11350 2750 0    28   BiDi ~ 0
 J06.PX4.A15.P2[10]
-Text GLabel 9400 5700 0    39   BiDi ~ 0
-J12.PX1.A12
-Text GLabel 9400 5800 0    39   BiDi ~ 0
-J12.PX2.A13
-Text GLabel 7450 5700 0    39   BiDi ~ 0
-J11.PX1.A12
-Text GLabel 7450 5800 0    39   BiDi ~ 0
-J11.PX2.A13
-Text GLabel 7450 5900 0    39   BiDi ~ 0
-J11.PX3.A14
-Text GLabel 7450 6000 0    39   BiDi ~ 0
-J11.PX4.A15
+Text GLabel 9400 5700 0    28   BiDi ~ 0
+J12.PX1.A12.P0[5]
+Text GLabel 9400 5800 0    28   BiDi ~ 0
+J12.PX2.A13.P0[4]
 Text GLabel 7450 2650 0    28   BiDi ~ 0
 J04.PX3.A14.P1[27]
 Text GLabel 7450 2750 0    28   BiDi ~ 0
@@ -238,8 +230,8 @@ Text GLabel 9400 2450 0    28   BiDi ~ 0
 J05.PX1.A12.P0[0]
 Text GLabel 9400 2550 0    28   BiDi ~ 0
 J05.PX2.A13.P0[1]
-Text GLabel 1600 8950 0    39   BiDi ~ 0
-J15.PX1.A12
+Text GLabel 1600 8950 0    28   BiDi ~ 0
+J15.PX1.A12.P1[10]
 Text GLabel 9400 2650 0    28   BiDi ~ 0
 J05.PX3.A14.P0[11]
 Text GLabel 9400 2750 0    28   BiDi ~ 0
@@ -248,36 +240,36 @@ Text GLabel 5500 2450 0    28   BiDi ~ 0
 J03.PX1.A12.P1[25]
 Text GLabel 5500 2550 0    28   BiDi ~ 0
 J03.PX2.A13.P1[24]
-Text GLabel 13300 6000 0    39   BiDi ~ 0
-J14.PX4.A15
-Text GLabel 13300 5900 0    39   BiDi ~ 0
-J14.PX3.A14
-Text GLabel 13300 5800 0    39   BiDi ~ 0
-J14.PX2.A13
-Text GLabel 13300 5700 0    39   BiDi ~ 0
-J14.PX1.A12
-Text GLabel 11350 6000 0    39   BiDi ~ 0
-J13.PX4.A15
-Text GLabel 11350 5900 0    39   BiDi ~ 0
-J13.PX3.A14
-Text GLabel 11350 5800 0    39   BiDi ~ 0
-J13.PX2.A13
-Text GLabel 11350 5700 0    39   BiDi ~ 0
-J13.PX1.A12
-Text GLabel 9400 6000 0    39   BiDi ~ 0
-J12.PX4.A15
+Text GLabel 13300 6000 0    28   BiDi ~ 0
+J14.PX4.A15.P1[14]
+Text GLabel 13300 5900 0    28   BiDi ~ 0
+J14.PX3.A14.P1[15]
+Text GLabel 13300 5800 0    28   BiDi ~ 0
+J14.PX2.A13.P1[16]
+Text GLabel 13300 5700 0    28   BiDi ~ 0
+J14.PX1.A12.P1[17]
+Text GLabel 11350 6000 0    28   BiDi ~ 0
+J13.PX4.A15.P1[1]
+Text GLabel 11350 5900 0    28   BiDi ~ 0
+J13.PX3.A14.P1[0]
+Text GLabel 11350 5800 0    28   BiDi ~ 0
+J13.PX2.A13.P3[26]
+Text GLabel 11350 5700 0    28   BiDi ~ 0
+J13.PX1.A12.P2[8]
+Text GLabel 9400 6000 0    28   BiDi ~ 0
+J12.PX4.A15.P4[28]
 Text GLabel 1600 5800 0    28   BiDi ~ 0
 J08.PX2.A13.P0[26]
-Text GLabel 9400 5900 0    39   BiDi ~ 0
-J12.PX3.A14
+Text GLabel 9400 5900 0    28   BiDi ~ 0
+J12.PX3.A14.P4[29]
 Text GLabel 1600 5700 0    28   BiDi ~ 0
 J08.PX1.A12.P0[25]
-Text GLabel 1600 9050 0    39   BiDi ~ 0
-J15.PX2.A13
-Text GLabel 1600 9150 0    39   BiDi ~ 0
-J15.PX3.A14
-Text GLabel 1600 9250 0    39   BiDi ~ 0
-J15.PX4.A15
+Text GLabel 1600 9050 0    28   BiDi ~ 0
+J15.PX2.A13.P1[9]
+Text GLabel 1600 9150 0    28   BiDi ~ 0
+J15.PX3.A14.P1[8]
+Text GLabel 1600 9250 0    28   BiDi ~ 0
+J15.PX4.A15.P1[4]
 Text GLabel 1600 2450 0    28   BiDi ~ 0
 J01.PX1.A12.P0[24]
 Text GLabel 1600 2550 0    28   BiDi ~ 0
@@ -286,22 +278,22 @@ Text GLabel 1600 2650 0    28   BiDi ~ 0
 J01.PX3.A14.P1[31]
 Text GLabel 1600 2750 0    28   BiDi ~ 0
 J01.PX4.A15.P1[30]
-Text GLabel 3550 2650 0    28   BiDi ~ 0
-J02.PX3.A14.P1[19]
-Text GLabel 3550 2750 0    28   BiDi ~ 0
-J02.PX4.A15.P1[18]
-Text GLabel 3550 2550 0    28   BiDi ~ 0
-J02.PX2.A13.P1[20]
-Text GLabel 3550 2450 0    28   BiDi ~ 0
-J02.PX1.A12.p1[21]
-Text GLabel 3550 5700 0    39   BiDi ~ 0
-J09.PX1.A12
-Text GLabel 3550 5800 0    39   BiDi ~ 0
-J09.PX2.A13
-Text GLabel 3550 5900 0    39   BiDi ~ 0
-J09.PX3.A14
-Text GLabel 3550 6000 0    39   BiDi ~ 0
-J09.PX4.A15
+Text GLabel 7450 5900 0    28   BiDi ~ 0
+J11.PX3.A14.P1[19]
+Text GLabel 7450 6000 0    28   BiDi ~ 0
+J11.PX4.A15.P1[18]
+Text GLabel 7450 5800 0    28   BiDi ~ 0
+J11.PX2.A13.P1[20]
+Text GLabel 7450 5700 0    28   BiDi ~ 0
+J11.PX1.A12.P1[21]
+Text GLabel 3550 5700 0    28   BiDi ~ 0
+J09.PX1.A12.P0[18]
+Text GLabel 3550 5800 0    28   BiDi ~ 0
+J09.PX2.A13.P0[17]
+Text GLabel 3550 5900 0    28   BiDi ~ 0
+J09.PX3.A14.P0[16]
+Text GLabel 3550 6000 0    28   BiDi ~ 0
+J09.PX4.A15.P0[15]
 Text GLabel 13300 2450 0    28   BiDi ~ 0
 J07.PX1.A12.P0[22]
 Text GLabel 13300 2550 0    28   BiDi ~ 0
@@ -310,10 +302,10 @@ Text GLabel 13300 2650 0    28   BiDi ~ 0
 J07.PX3.A14.P0[20]
 Text GLabel 13300 2750 0    28   BiDi ~ 0
 J07.PX4.A15.P0[19]
-Text GLabel 5500 5900 0    39   BiDi ~ 0
-J10.PX3.A14
-Text GLabel 5500 6000 0    39   BiDi ~ 0
-J10.PX4.A15
+Text GLabel 5500 5900 0    28   BiDi ~ 0
+J10.PX3.A14.P2[5]
+Text GLabel 5500 6000 0    28   BiDi ~ 0
+J10.PX4.A15.P2[4]
 Text GLabel 11350 2550 0    28   BiDi ~ 0
 J06.PX2.A13.P2[12]
 Text GLabel 11350 2450 0    28   BiDi ~ 0
@@ -322,10 +314,10 @@ Text GLabel 5500 2650 0    28   BiDi ~ 0
 J03.PX3.A14.P1[23]
 Text GLabel 5500 2750 0    28   BiDi ~ 0
 J03.PX4.A15.P1[22]
-Text GLabel 5500 5800 0    39   BiDi ~ 0
-J10.PX2.A13
-Text GLabel 5500 5700 0    39   BiDi ~ 0
-J10.PX1.A12
+Text GLabel 5500 5800 0    28   BiDi ~ 0
+J10.PX2.A13.P2[6]
+Text GLabel 5500 5700 0    28   BiDi ~ 0
+J10.PX1.A12.P2[7]
 $Comp
 L PCIESOCKET-X1 J15
 U 1 1 578722E3
@@ -2539,4 +2531,12 @@ F 3 "" H 5250 1950 50  0000 C CNN
 	1    5250 1950
 	1    0    0    -1  
 $EndComp
+Text GLabel 3550 2450 0    28   BiDi ~ 0
+J02.PX1.A12.P2[3]
+Text GLabel 3550 2550 0    28   BiDi ~ 0
+J02.PX2.A13.P2[2]
+Text GLabel 3550 2650 0    28   BiDi ~ 0
+J02.PX3.A14.P2[1]
+Text GLabel 3550 2750 0    28   BiDi ~ 0
+J02.PX4.A15.P2[0]
 $EndSCHEMATC
