@@ -1,4 +1,4 @@
-update=Sat 16 Jul 2016 04:42:07 PM PDT
+update=Sat 24 Sep 2016 02:20:30 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,3 +39,4 @@ LibName7=RoboPlatform
 LibName8=inductors
 LibName9=electromechanical
 LibName10=devices
+LibName11=datastorage
