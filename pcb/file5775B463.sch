@@ -10,6 +10,7 @@ LIBS:inductors
 LIBS:electromechanical
 LIBS:devices
 LIBS:datastorage
+LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
