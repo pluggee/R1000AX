@@ -3,7 +3,7 @@
   (general
     (links 643)
     (no_connects 0)
-    (area 50.924999 73.424999 226.075001 139.075001)
+    (area 47.5 63.678571 233.500001 146.500001)
     (thickness 1.6)
     (drawings 52)
     (tracks 2328)
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
@@ -2757,10 +2757,10 @@
     )
   )
 
-  (module Main:BRACKET-R1000A (layer F.Cu) (tedit 57EF0805) (tstamp 57EA16C5)
+  (module Main:BRACKET-R1000A (layer F.Cu) (tedit 57F299DE) (tstamp 57EA16C5)
     (at 141 124)
     (path /57EA2042)
-    (fp_text reference MP2 (at 0 0) (layer F.SilkS)
+    (fp_text reference MP2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BRACKET-R1000A (at 0.1 1.8) (layer F.Fab) hide
