@@ -493,7 +493,7 @@ Text Label 4675 3950 0    39   ~ 0
 LM5060_SENSE
 Text Label 4675 3525 0    39   ~ 0
 LM5060_GATE
-Text Notes 2700 5450 0    60   ~ 0
+Text Notes 3100 5125 0    60   ~ 0
 Finalize R Values
 $Comp
 L C0603 C24
