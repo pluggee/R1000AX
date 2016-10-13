@@ -3,10 +3,10 @@
   (general
     (links 680)
     (no_connects 0)
-    (area 50.924999 73.424999 226.075001 139.075001)
+    (area 47.4 63.678571 233.500001 146.600001)
     (thickness 1.6)
     (drawings 65)
-    (tracks 2735)
+    (tracks 2734)
     (zones 0)
     (modules 100)
     (nets 113)
@@ -14,10 +14,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (1 In1.Cu signal hide)
-    (2 In2.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (1 In1.Cu signal)
+    (2 In2.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user hide)
     (34 B.Paste user)
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 1.5)
+    (last_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
@@ -73,7 +73,7 @@
     (aux_axis_origin -41.6 -108.1)
     (visible_elements 7FFEFFFF)
     (pcbplotparams
-      (layerselection 0x010fe_80000007)
+      (layerselection 0x010ff_80000007)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -4815,7 +4815,6 @@
   (gr_arc (start 53 137) (end 53 139) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 51 75.5) (end 51 137) (angle 90) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 37.8495 128.975) (end 37.8 128.9255) (width 0.15) (layer B.Cu) (net 0) (tstamp 57FC9035))
   (segment (start 64.575 113) (end 64.575 111.825) (width 0.15) (layer F.Cu) (net 1))
   (segment (start 70.3 120.6) (end 71.25 119.65) (width 0.15) (layer B.Cu) (net 1) (tstamp 57FEC182))
   (segment (start 68.175 120.6) (end 70.3 120.6) (width 0.15) (layer B.Cu) (net 1) (tstamp 57FEC181))
