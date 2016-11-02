@@ -10,7 +10,6 @@ LIBS:inductors
 LIBS:electromechanical
 LIBS:devices
 LIBS:datastorage
-LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 11000 17000 portrait
@@ -547,18 +546,12 @@ Text Label 2750 4800 0    39   ~ 0
 TCK
 Text Label 2750 4900 0    39   ~ 0
 RTCK
-Text Notes 8600 6425 0    60   ~ 0
-ISP Programming
 Text Notes 3950 15400 0    60   ~ 0
 LEDs
 Text Notes 2625 4325 0    60   ~ 0
 JTAG Debug
 Text Notes 1050 11300 0    60   ~ 0
 Module MCU Reset
-Text Notes 8425 6700 0    39   ~ 0
-4 - P0.3 - #99 - RXD0
-Text Notes 8425 6800 0    39   ~ 0
-5 - P0.2 - #98 - TXD0
 $Comp
 L SPST_PUSHBTN S3
 U 1 1 578FDF37
@@ -1751,44 +1744,6 @@ F 3 "" H 9975 1600 60  0000 C CNN
 	1    9975 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN254P-01X06 J1
-U 1 1 57ECA024
-P 8350 6625
-F 0 "J1" H 8350 6975 50  0000 C CNN
-F 1 "CONN254P-01X06" H 8300 6275 50  0000 L CNN
-F 2 "Main:SOCKET254P-01X06" H 8300 6225 20  0000 L CNN
-F 3 "" H 8350 6875 50  0000 C CNN
-F 4 "TE Connectivity AMP Connectors" H 8300 7050 60  0001 L CNN "Manufacturer"
-F 5 "3-644456-6" H 8300 7150 60  0001 L CNN "MPN"
-F 6 "STUFF" H 8300 6175 39  0000 L CNN "SKU"
-	1    8350 6625
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8150 6475
-NoConn ~ 8150 6575
-NoConn ~ 8150 6875
-$Comp
-L GND #PWR038
-U 1 1 57ECA8BD
-P 7950 6375
-F 0 "#PWR038" H 7950 6125 50  0001 C CNN
-F 1 "GND" H 7950 6225 50  0000 C CNN
-F 2 "" H 7950 6375 50  0000 C CNN
-F 3 "" H 7950 6375 50  0000 C CNN
-	1    7950 6375
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7950 6375 8150 6375
-Text GLabel 8000 6675 0    39   BiDi ~ 0
-J08.PX3.A14.P0[3]
-Wire Wire Line
-	8000 6675 8150 6675
-Text GLabel 8000 6775 0    39   BiDi ~ 0
-J08.PX4.A15.P0[2]
-Wire Wire Line
-	8000 6775 8150 6775
 $Comp
 L CONN127P-02X05 J2
 U 1 1 57ED28ED
