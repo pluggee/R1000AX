@@ -26,6 +26,7 @@ R1004		: Inertial Measurement Unit (IMU) Breakout
 R1005		: General Purpose Breakout/Extension
 R1006 		: SD Card
 R1007		: Quad 20A DC Low Side NFET Control Switches
+R1008		: Dual/Quad PT100 Platinum RTD temperature sensing module
 </pre>
 Adapters
 <pre>
