@@ -10,6 +10,7 @@ LIBS:inductors
 LIBS:electromechanical
 LIBS:devices
 LIBS:datastorage
+LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -277,19 +278,8 @@ F 6 "STUFF" H 5500 1550 39  0000 L CNN "SKU"
 $EndComp
 Text Notes 2025 6250 0    60   ~ 0
 3.3V Buck
-$Comp
-L HT #PWR0138
-U 1 1 57E707A0
-P 5100 1500
-F 0 "#PWR0138" H 5100 1620 50  0001 C CNN
-F 1 "HT" H 5100 1590 50  0000 C CNN
-F 2 "" H 5100 1500 50  0000 C CNN
-F 3 "" H 5100 1500 50  0000 C CNN
-	1    5100 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5100 1500 5100 1900
+	5100 1350 5100 1900
 Wire Wire Line
 	5100 1750 5300 1750
 Wire Wire Line
@@ -685,4 +675,8 @@ F 7 "STUFF" H 3525 5860 20  0000 R CNN "SKU"
 	1    3575 5950
 	0    1    1    0   
 $EndComp
+Text GLabel 4800 1350 0    60   Input ~ 0
+PFET_D
+Wire Wire Line
+	5100 1350 4800 1350
 $EndSCHEMATC
