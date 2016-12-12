@@ -10,7 +10,6 @@ LIBS:inductors
 LIBS:electromechanical
 LIBS:devices
 LIBS:datastorage
-LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
@@ -210,7 +209,7 @@ $EndComp
 Text GLabel 11350 2650 0    28   BiDi ~ 0
 J06.PX3.A14.P2[11]
 Text GLabel 11350 2750 0    28   BiDi ~ 0
-J06.PX4.A15.P2[10]
+J06.PX4.A15.P3[25]
 Text GLabel 9400 5700 0    28   BiDi ~ 0
 J12.PX1.A12.P0[5]
 Text GLabel 9400 5800 0    28   BiDi ~ 0
