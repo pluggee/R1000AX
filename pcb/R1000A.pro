@@ -1,4 +1,4 @@
-update=Wed 26 Oct 2016 01:45:38 PM PDT
+update=Wed 28 Dec 2016 11:58:13 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -40,3 +40,4 @@ LibName8=inductors
 LibName9=electromechanical
 LibName10=devices
 LibName11=datastorage
+LibName12=mem
