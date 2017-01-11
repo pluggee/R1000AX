@@ -1,3 +1,4 @@
+sep=;
 Reference; Value; Footprint; Datasheet; Manufacturer; MPN; SKU; C; TC; Vmax; Tol; Pwr; Res
 U1;LPC1769FBD100,551;Main:QFP50P1400X1400X160-100;;NXP Semiconductors;LPC1769FBD100,551;STUFF;;;;;;
 J25;SOCKET420P-02X04-CPU;Main:SOCKET420P-02X04;;TE Connectivity AMP Connectors;1586042-8;STUFF;;;;;;
