@@ -41,7 +41,8 @@ R1000DBG	: Busy Bee Debug/Programming Board
 Setup Steps
 -----------
 Make sure to do the following before starting a project
-set KISYS3DMOD variable to point to cloned github repo from https://github.com/pluggee/pack3d
+
+1- set KISYS3DMOD variable to point to cloned github repo from https://github.com/pluggee/pack3d
 License
 -------
 R1000A board design files are released under the GNU GPL v3, which you can find at <http://www.gnu.org/licenses/gpl-3.0.en.html>,
