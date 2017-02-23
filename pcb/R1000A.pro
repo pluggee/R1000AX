@@ -1,4 +1,4 @@
-update=Wed 28 Dec 2016 11:58:13 PM PST
+update=Wed 01 Feb 2017 11:11:00 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -41,3 +41,7 @@ LibName9=electromechanical
 LibName10=devices
 LibName11=datastorage
 LibName12=mem
+LibName13=cap_smd
+LibName14=res_smd
+LibName15=cap_smd_extra
+LibName16=res_smd_extra
