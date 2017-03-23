@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.3+e1-6302~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu14.04.1)
 
   (general
     (links 726)
     (no_connects 502)
-    (area 50.924999 73.424999 226.075001 139.075001)
+    (area 47.4 63.678571 240.500001 155.325)
     (thickness 1.6)
     (drawings 71)
     (tracks 3040)
@@ -815,10 +815,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E40F) (tstamp 57E3430C)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D3785D) (tstamp 57E3430C)
     (at 150 120 90)
     (path /5775B464/5775B5FC)
-    (fp_text reference J09 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J9 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -905,10 +905,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E40A) (tstamp 57E342DE)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D37854) (tstamp 57E342DE)
     (at 140 120 90)
     (path /5775B464/5775B930)
-    (fp_text reference J08 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J8 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -993,10 +993,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E404) (tstamp 57E342B0)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D3784C) (tstamp 57E342B0)
     (at 130 120 90)
     (path /5775B464/5775B85C)
-    (fp_text reference J07 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J7 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -1082,10 +1082,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E3FE) (tstamp 57E34282)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D37844) (tstamp 57E34282)
     (at 120 120 90)
     (path /5775B464/5775B5C2)
-    (fp_text reference J06 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J6 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -1171,10 +1171,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E3F7) (tstamp 57E34254)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D37834) (tstamp 57E34254)
     (at 110 120 90)
     (path /5775B464/5775B927)
-    (fp_text reference J05 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J5 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -1261,10 +1261,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E3F0) (tstamp 57E34226)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D3782C) (tstamp 57E34226)
     (at 100 120 90)
     (path /5775B464/5775B853)
-    (fp_text reference J04 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J4 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -1350,10 +1350,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E3EA) (tstamp 57E341F8)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D37823) (tstamp 57E341F8)
     (at 90 120 90)
     (path /5775B464/5775B560)
-    (fp_text reference J03 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J3 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -1440,10 +1440,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57F1E3E5) (tstamp 57E341CA)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D37818) (tstamp 57E341CA)
     (at 80 120 90)
     (path /5775B464/5775B91E)
-    (fp_text reference J02 (at -11 -5 270) (layer F.SilkS)
+    (fp_text reference J2 (at -11 -5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -1530,10 +1530,10 @@
     )
   )
 
-  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 57FDE0FA) (tstamp 57E3419C)
+  (module Main:PCIESOCKET-X1 (layer F.Cu) (tedit 58D37809) (tstamp 57E3419C)
     (at 70 120 90)
     (path /5775B464/57872A0A)
-    (fp_text reference J01 (at -8.3 -4.7 270) (layer F.SilkS)
+    (fp_text reference J1 (at -8.3 -4.7 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PCIESOCKET-X1 (at 0 -4.318 90) (layer F.Fab) hide
@@ -2728,10 +2728,10 @@
     )
   )
 
-  (module Main:CONN127P-02X05 (layer F.Cu) (tedit 57F1E507) (tstamp 57EC80C0)
+  (module Main:CONN127P-02X05 (layer F.Cu) (tedit 58D377F9) (tstamp 57EC80C0)
     (at 103.5 77.7 270)
     (path /57ED28ED)
-    (fp_text reference J2 (at -2.2 -2.7 270) (layer F.SilkS) hide
+    (fp_text reference J16 (at -2.2 -2.7 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN127P-02X05 (at 0 -1.9 270) (layer F.Fab) hide
