@@ -15,7 +15,6 @@ LIBS:cap_smd
 LIBS:res_smd
 LIBS:cap_smd_extra
 LIBS:res_smd_extra
-LIBS:R1000A-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
