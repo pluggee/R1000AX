@@ -44,7 +44,8 @@ Make sure to do the following before starting a project
 
 1- Clone (or update) [KiCADLibs](https://github.com/pluggee/KiCADLibs) locally IN THE SAME DIRECTORY AS THIS REPO, this will include the required schematic symbols
 2- Clone (or update) [pack3d](https://github.com/pluggee/pack3d) repo, this will include 3D models for PCB 3D view
-3- Set KISYS3DMOD variable to point to your local **pack3d** repo, you can do this in the main KiCAD window
+3- Set KISYS3DMOD variable to point to your local **pack3d** repo, you can do this in the main KiCAD window by
+
 **Preferences** -> **Configure Paths**
 
 License
