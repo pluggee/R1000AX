@@ -18,7 +18,7 @@ Boards
 ------
 Feature Boards
 <pre>
-R1000A 	    : Base Platform Board (2 variants, R1000AX and R1000A)
+R1000A 	      : Base Platform Board (2 variants, R1000AX and R1000A)
 R1001		: Cascadable Stepper Motor Driver
 R1002		: Quad 1A DC Low Side NFET Control Switches
 R1003		: Analog/Digital I/O (Analog/Digital)
