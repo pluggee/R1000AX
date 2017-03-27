@@ -15,6 +15,7 @@ LIBS:cap_smd
 LIBS:res_smd
 LIBS:cap_smd_extra
 LIBS:res_smd_extra
+LIBS:R1000AX-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 11000 17000 portrait
@@ -2269,4 +2270,15 @@ F 3 "" H 5425 1325 39  0001 C CNN
 $EndComp
 Text Notes 8725 6700 0    60   ~ 0
 EEPROM for storing\nconfig data outside\nmain MCU flash
+$Comp
+L ART A5
+U 1 1 58D98C87
+P 6175 875
+F 0 "A5" H 6175 825 39  0000 C CNN
+F 1 "ART" H 6175 925 39  0000 C CNN
+F 2 "Symbols:RoHS-Logo_6mm_SilkScreen" H 6000 700 20  0000 L CNN
+F 3 "" H 6175 875 39  0001 C CNN
+	1    6175 875 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
