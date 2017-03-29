@@ -12,3 +12,5 @@ R1000AX-B.Mask.gbr      Back (Bottom) Solder Mask
 R1000AX-Edge.Cuts.gbr   Edge Cut (routing cut)
 R1000AX-NPTH.drl        Non-Plated through hole drills
 R1000AX.drl             Plated through hole drills
+R1000AX-top.pos         Front (Top) component position file (SMT assembly)
+R1000AX-bot.pos         Back (Bottom) component position file (SMT assembly)
