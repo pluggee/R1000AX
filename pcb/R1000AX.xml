@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/sherif/git/R1000AX/pcb/R1000AX.sch</source>
-    <date>Thu 30 Mar 2017 11:02:08 PM PDT</date>
+    <date>Fri 31 Mar 2017 11:44:20 AM PDT</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -160,34 +160,6 @@
       <libsource lib="datastorage" part="MICROSD_SCHD3A0100"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57EC16A9</tstamp>
-    </comp>
-    <comp ref="MP4">
-      <value>MECH_NPTH_M4</value>
-      <footprint>Main:MECH_NPTH_M4</footprint>
-      <libsource lib="connect" part="MECH_NPTH_M4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57EC3590</tstamp>
-    </comp>
-    <comp ref="MP6">
-      <value>MECH_NPTH_M4</value>
-      <footprint>Main:MECH_NPTH_M4</footprint>
-      <libsource lib="connect" part="MECH_NPTH_M4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57EC3DA1</tstamp>
-    </comp>
-    <comp ref="MP7">
-      <value>MECH_NPTH_M4</value>
-      <footprint>Main:MECH_NPTH_M4</footprint>
-      <libsource lib="connect" part="MECH_NPTH_M4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57EC3F16</tstamp>
-    </comp>
-    <comp ref="MP8">
-      <value>MECH_NPTH_M4</value>
-      <footprint>Main:MECH_NPTH_M4</footprint>
-      <libsource lib="connect" part="MECH_NPTH_M4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57EC3F1C</tstamp>
     </comp>
     <comp ref="J16">
       <value>CONN127P-02X05</value>
@@ -840,6 +812,34 @@
       <libsource lib="connect" part="USB_A_RECEPTACLE_2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58DE8EE0</tstamp>
+    </comp>
+    <comp ref="MP4">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DE20D4</tstamp>
+    </comp>
+    <comp ref="MP6">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DE2AE2</tstamp>
+    </comp>
+    <comp ref="MP7">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DE2DC6</tstamp>
+    </comp>
+    <comp ref="MP8">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DE317A</tstamp>
     </comp>
     <comp ref="J3">
       <value>PCIESOCKET-X1</value>
@@ -2518,12 +2518,12 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="connect" part="MECH_NPTH_M4">
-      <description>M4 3.6 Non-Plated Through Hole</description>
+    <libpart lib="connect" part="MECH_NPTH_M3">
+      <description>M3 2.6 Non-Plated Through Hole</description>
       <fields>
         <field name="Reference">MP</field>
-        <field name="Value">MECH_NPTH_M4</field>
-        <field name="Footprint">Main:MECH_NPTH_M4</field>
+        <field name="Value">MECH_NPTH_M3</field>
+        <field name="Footprint">Main:MECH_NPTH_M3</field>
       </fields>
     </libpart>
     <libpart lib="datastorage" part="MICROSD_SCHD3A0100">
@@ -3109,35 +3109,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="cap_smd">
+      <uri>/home/sherif/git/KiCADLibs/sch/cap_smd.lib</uri>
     </library>
-    <library logical="analog">
-      <uri>/home/sherif/git/KiCADLibs/sch/analog.lib</uri>
-    </library>
-    <library logical="connect">
-      <uri>/home/sherif/git/KiCADLibs/sch/connect.lib</uri>
-    </library>
-    <library logical="systems">
-      <uri>/home/sherif/git/KiCADLibs/sch/systems.lib</uri>
-    </library>
-    <library logical="microcontroller">
-      <uri>/home/sherif/git/KiCADLibs/sch/microcontroller.lib</uri>
+    <library logical="datastorage">
+      <uri>/home/sherif/git/KiCADLibs/sch/datastorage.lib</uri>
     </library>
     <library logical="inductors">
       <uri>/home/sherif/git/KiCADLibs/sch/inductors.lib</uri>
     </library>
-    <library logical="electromechanical">
-      <uri>/home/sherif/git/KiCADLibs/sch/electromechanical.lib</uri>
-    </library>
-    <library logical="cap_smd">
-      <uri>/home/sherif/git/KiCADLibs/sch/cap_smd.lib</uri>
-    </library>
-    <library logical="devices">
-      <uri>/home/sherif/git/KiCADLibs/sch/devices.lib</uri>
-    </library>
-    <library logical="datastorage">
-      <uri>/home/sherif/git/KiCADLibs/sch/datastorage.lib</uri>
+    <library logical="connect">
+      <uri>/home/sherif/git/KiCADLibs/sch/connect.lib</uri>
     </library>
     <library logical="mem">
       <uri>/home/sherif/git/KiCADLibs/sch/mem.lib</uri>
@@ -3145,11 +3127,29 @@
     <library logical="res_smd">
       <uri>/home/sherif/git/KiCADLibs/sch/res_smd.lib</uri>
     </library>
-    <library logical="cap_smd_extra">
-      <uri>/home/sherif/git/KiCADLibs/sch/cap_smd_extra.lib</uri>
+    <library logical="systems">
+      <uri>/home/sherif/git/KiCADLibs/sch/systems.lib</uri>
+    </library>
+    <library logical="microcontroller">
+      <uri>/home/sherif/git/KiCADLibs/sch/microcontroller.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="electromechanical">
+      <uri>/home/sherif/git/KiCADLibs/sch/electromechanical.lib</uri>
     </library>
     <library logical="res_smd_extra">
       <uri>/home/sherif/git/KiCADLibs/sch/res_smd_extra.lib</uri>
+    </library>
+    <library logical="cap_smd_extra">
+      <uri>/home/sherif/git/KiCADLibs/sch/cap_smd_extra.lib</uri>
+    </library>
+    <library logical="devices">
+      <uri>/home/sherif/git/KiCADLibs/sch/devices.lib</uri>
+    </library>
+    <library logical="analog">
+      <uri>/home/sherif/git/KiCADLibs/sch/analog.lib</uri>
     </library>
   </libraries>
   <nets>
