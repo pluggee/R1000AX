@@ -1,4 +1,4 @@
-### Module positions - created on Fri Mar 31 23:08:11 2017 ###
+### Module positions - created on Sat Apr  1 17:04:21 2017 ###
 ### Printed by Pcbnew version kicad 4.0.6-e0-6349~53~ubuntu14.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -32,7 +32,7 @@ C26       CC0603KRX7R9BB104  CAPC0603                        196.9000  -211.7000
 C27       CC0603KRX7R9BB104  CAPC0603                        189.5000  -210.3000   90.0000  top
 D5        MBR0520LT1G        SOD3717X135                     112.3750  -191.6750  180.0000  top
 L2        600Ohms            RESC0603                        151.5250  -188.0500  315.0000  top
-Q1        DMG2305UX-7        SOT190P290X130X100-3            117.3000  -185.0000   90.0000  top
+Q1        DMG2305UX-7        SOT190P290X130X100-3            118.0000  -186.6000   90.0000  top
 Q2        PSMN1R2-30YLC      SOT127P500X110-5                105.5000  -243.9000   90.0000  top
 Q3        Q_PNP_BEC          SOT190P290X130X100-3            183.4000  -193.4000    0.0000  top
 Q4        Q_NPN_BEC          SOT190P290X130X100-3            199.4000  -198.8000  270.0000  top
@@ -76,6 +76,10 @@ R36       RC0603FR-077R5L    RESC0603                        198.6000  -211.7000
 R37       RC0603FR-077R5L    RESC0603                        187.3000  -211.2000  180.0000  top
 R38       RC0603FR-072K21L   RESC0603                        195.4000  -198.7000  180.0000  top
 R39       RC0603FR-0766K5L   RESC0603                        114.7000  -195.0000  180.0000  top
+R40       RC0603FR-070RL     RESC0603                        258.1000  -187.8000  180.0000  top
+R41       RC0603FR-070RL     RESC0603                        258.1000  -189.5000  180.0000  top
+R42       RC0603FR-070RL     RESC0603                        117.8000  -184.1000  180.0000  top
+R43       RC0603FR-070RL     RESC0603                        117.8000  -182.5000  180.0000  top
 R67       RC0603FR-0710KL    RESC0603                        189.6000  -191.6000  270.0000  top
 R69       RC0603FR-0710KL    RESC0603                        200.9250  -207.6750  270.0000  top
 R70       RC0603FR-0766K5L   RESC0603                        121.7000  -209.6000  270.0000  top
