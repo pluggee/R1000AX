@@ -30,9 +30,15 @@ R1008		: Dual/Quad PT100 Platinum RTD temperature sensing module
 </pre>
 Adapters
 <pre>
-R1011		: Stepper Motor Master/Slave Bond
-R1012		: RPi USB data adapter
-R1013		: RPi power adapter
+R1200		: Stepper Motor Master/Slave Bond
+R1201		: RPi USB data adapter
+R1202		: RPi power adapter
+</pre>
+Interposers
+<pre>
+R1100           : C.H.I.P. Pro Interposer with Host USB 2.0 
+R1101           : particle.io photon Interposer
+R1102           : particle.io electron Interposer
 </pre>
 Special Boards
 <pre>

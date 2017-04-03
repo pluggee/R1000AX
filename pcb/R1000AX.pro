@@ -1,4 +1,4 @@
-update=Thu 23 Mar 2017 08:06:12 PM PDT
+update=Sat 01 Apr 2017 05:43:18 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,26 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=../../KiCADLibs/sch
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=analog
-LibName4=connect
-LibName5=microcontroller
-LibName6=systems
-LibName7=RoboPlatform
-LibName8=inductors
-LibName9=electromechanical
-LibName10=devices
-LibName11=datastorage
-LibName12=mem
-LibName13=cap_smd
-LibName14=res_smd
-LibName15=cap_smd_extra
-LibName16=res_smd_extra
 [schematic_editor]
 version=1
 PageLayoutDescrFile=/home/sherif/git/KiCADLibs/wks/B11X17_portrait.kicad_wks
@@ -55,3 +35,24 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=../../KiCADLibs/sch
+[eeschema/libraries]
+LibName1=R1000AX-rescue
+LibName2=power
+LibName3=device
+LibName4=analog
+LibName5=connect
+LibName6=microcontroller
+LibName7=systems
+LibName8=RoboPlatform
+LibName9=inductors
+LibName10=electromechanical
+LibName11=devices
+LibName12=datastorage
+LibName13=mem
+LibName14=cap_smd
+LibName15=res_smd
+LibName16=cap_smd_extra
+LibName17=res_smd_extra
