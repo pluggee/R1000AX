@@ -15,6 +15,7 @@ LIBS:cap_smd
 LIBS:res_smd
 LIBS:cap_smd_extra
 LIBS:res_smd_extra
+LIBS:R1000AX-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 11000 17000 portrait
@@ -2099,14 +2100,6 @@ Wire Wire Line
 	8475 12400 9050 12400
 Text GLabel 8475 12400 0    39   Output ~ 0
 ~MRESET
-Text GLabel 8475 11800 0    39   BiDi ~ 0
-J08.PX1.A12.P0[25]
-Text GLabel 8475 11900 0    39   BiDi ~ 0
-J08.PX2.A13.P0[26]
-Wire Wire Line
-	8475 11800 9050 11800
-Wire Wire Line
-	9050 11900 8475 11900
 Text GLabel 8475 12100 0    39   BiDi ~ 0
 J08.PX3.A14.P0[3]
 Text GLabel 8475 12000 0    39   BiDi ~ 0
@@ -2457,4 +2450,12 @@ F 7 "WHITE" V 2850 15700 28  0000 L CNN "Color"
 	1    2950 15725
 	1    0    0    -1  
 $EndComp
+Text Label 8550 11900 0    39   ~ 0
+TCK
+Wire Wire Line
+	9050 11900 8550 11900
+Text Label 8550 11800 0    39   ~ 0
+TMS
+Wire Wire Line
+	9050 11800 8550 11800
 $EndSCHEMATC
