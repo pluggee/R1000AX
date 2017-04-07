@@ -22,8 +22,8 @@ $Descr B 11000 17000 portrait
 encoding utf-8
 Sheet 1 4
 Title "R1000AX JuicyBoard Base"
-Date "2017-03-23"
-Rev "1.3.1"
+Date "2017-04-06"
+Rev "1.3.2"
 Comp ""
 Comment1 ""
 Comment2 ""
