@@ -1,4 +1,4 @@
-### Module positions - created on Sat Apr  1 17:04:21 2017 ###
+### Module positions - created on Thu Apr  6 14:07:30 2017 ###
 ### Printed by Pcbnew version kicad 4.0.6-e0-6349~53~ubuntu14.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -17,8 +17,8 @@ C11       CC0603KRX7R9BB104  CAPC0603                        165.6000  -191.9000
 C12       CC0603JRNPO9BN180  CAPC0603                        113.9000  -185.9000  180.0000  top
 C13       CC0603KRX7R9BB104  CAPC0603                        119.9000  -209.6000  270.0000  top
 C14       CL21A475KLCLQNC    CAPC0805                        117.7000  -210.1000  270.0000  top
-C15       CC0603KRX7R9BB103  CAPC0603                        191.4000  -191.6000  270.0000  top
-C16       CC0603KRX7R9BB103  CAPC0603                        198.9750  -193.6250  270.0000  top
+C15       CC0603KRX7R9BB103  CAPC0603                        190.9000  -192.8000  270.0000  top
+C16       CC0603KRX7R9BB103  CAPC0603                        199.2250  -190.9750  270.0000  top
 C17       CC0603KRX7R9BB682  CAPC0603                        131.4000  -210.5000    0.0000  top
 C18       CC0603JRNPO9BN180  CAPC0603                        116.3000  -190.6250  270.0000  top
 C19       CC0603KRX7R9BB104  CAPC0603                        130.7000  -204.5000  270.0000  top
@@ -76,11 +76,11 @@ R36       RC0603FR-077R5L    RESC0603                        198.6000  -211.7000
 R37       RC0603FR-077R5L    RESC0603                        187.3000  -211.2000  180.0000  top
 R38       RC0603FR-072K21L   RESC0603                        195.4000  -198.7000  180.0000  top
 R39       RC0603FR-0766K5L   RESC0603                        114.7000  -195.0000  180.0000  top
-R40       RC0603FR-070RL     RESC0603                        258.1000  -187.8000  180.0000  top
-R41       RC0603FR-070RL     RESC0603                        258.1000  -189.5000  180.0000  top
-R42       RC0603FR-070RL     RESC0603                        117.8000  -184.1000  180.0000  top
-R43       RC0603FR-070RL     RESC0603                        117.8000  -182.5000  180.0000  top
-R67       RC0603FR-0710KL    RESC0603                        189.6000  -191.6000  270.0000  top
+R40       ERJ-3GEY0R00V      RESC0603                        258.1000  -187.8000  180.0000  top
+R41       ERJ-3GEY0R00V      RESC0603                        258.1000  -189.5000  180.0000  top
+R42       ERJ-3GEY0R00V      RESC0603                        117.8000  -184.1000  180.0000  top
+R43       ERJ-3GEY0R00V      RESC0603                        117.8000  -182.5000  180.0000  top
+R67       RC0603FR-0710KL    RESC0603                        189.2000  -192.8000  270.0000  top
 R69       RC0603FR-0710KL    RESC0603                        200.9250  -207.6750  270.0000  top
 R70       RC0603FR-0766K5L   RESC0603                        121.7000  -209.6000  270.0000  top
 U1        LPC1769FBD100,551  QFP50P1400X1400X160-100         156.6000  -198.1000  315.0000  top
