@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/sherif/git/R1000AX/pcb/R1000AX.sch</source>
-    <date>Mon 10 Apr 2017 08:33:35 PM PDT</date>
+    <date>Fri 14 Apr 2017 03:09:34 PM PDT</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3217,20 +3217,20 @@
     <library logical="analog">
       <uri>/home/sherif/git/KiCADLibs/sch/analog.lib</uri>
     </library>
-    <library logical="microcontroller">
-      <uri>/home/sherif/git/KiCADLibs/sch/microcontroller.lib</uri>
-    </library>
     <library logical="connect">
       <uri>/home/sherif/git/KiCADLibs/sch/connect.lib</uri>
     </library>
     <library logical="systems">
       <uri>/home/sherif/git/KiCADLibs/sch/systems.lib</uri>
     </library>
-    <library logical="inductors">
-      <uri>/home/sherif/git/KiCADLibs/sch/inductors.lib</uri>
+    <library logical="microcontroller">
+      <uri>/home/sherif/git/KiCADLibs/sch/microcontroller.lib</uri>
     </library>
     <library logical="devices">
       <uri>/home/sherif/git/KiCADLibs/sch/devices.lib</uri>
+    </library>
+    <library logical="inductors">
+      <uri>/home/sherif/git/KiCADLibs/sch/inductors.lib</uri>
     </library>
     <library logical="electromechanical">
       <uri>/home/sherif/git/KiCADLibs/sch/electromechanical.lib</uri>
@@ -3244,11 +3244,11 @@
     <library logical="mem">
       <uri>/home/sherif/git/KiCADLibs/sch/mem.lib</uri>
     </library>
-    <library logical="res_smd">
-      <uri>/home/sherif/git/KiCADLibs/sch/res_smd.lib</uri>
-    </library>
     <library logical="cap_smd_extra">
       <uri>/home/sherif/git/KiCADLibs/sch/cap_smd_extra.lib</uri>
+    </library>
+    <library logical="res_smd">
+      <uri>/home/sherif/git/KiCADLibs/sch/res_smd.lib</uri>
     </library>
     <library logical="res_smd_extra">
       <uri>/home/sherif/git/KiCADLibs/sch/res_smd_extra.lib</uri>
