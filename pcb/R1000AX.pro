@@ -1,4 +1,4 @@
-update=Thu 23 Mar 2017 08:06:12 PM PDT
+update=Wed 05 Apr 2017 23:59:35 PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/home/sherif/git/KiCADLibs/wks/B11X17_portrait.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../KiCADLibs/sch
@@ -45,13 +55,3 @@ LibName13=cap_smd
 LibName14=res_smd
 LibName15=cap_smd_extra
 LibName16=res_smd_extra
-[schematic_editor]
-version=1
-PageLayoutDescrFile=/home/sherif/git/KiCADLibs/wks/B11X17_portrait.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
