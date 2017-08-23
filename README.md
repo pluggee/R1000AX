@@ -37,6 +37,7 @@ Interposers
 R1100           : C.H.I.P. Pro Interposer with Host USB 2.0 and MicroSD
 R1101           : particle.io photon Interposer
 R1102           : particle.io electron Interposer
+R1103           : Raspberry Pi data/power Interposer
 </pre>
 Special Boards
 <pre>
