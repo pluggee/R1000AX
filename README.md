@@ -31,8 +31,6 @@ R1008		: Dual/Quad PT100 Platinum RTD temperature sensing module
 Adapters
 <pre>
 R1200		: Stepper Motor Master/Slave Bond
-R1201		: RPi USB data adapter
-R1202		: RPi power adapter
 </pre>
 Interposers
 <pre>
